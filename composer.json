@@ -1,0 +1,15 @@
+{
+    "name": "amir/strategy",
+    "authors": [
+        {
+            "name": "Amir Etemad",
+            "email": "amiretemaddevelopment@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StrategyPattern\\" : "src"
+        }
+    },
+    "require": {}
+}
