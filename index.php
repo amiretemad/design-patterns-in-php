@@ -1,11 +1,11 @@
 <?php
 
-use StrategyPattern\GenerateCouponContext;
-use StrategyPattern\Interfaces\CouponTypeInterface;
-use StrategyPattern\Strategy\ExactCouponGenerator;
-use StrategyPattern\Strategy\RandomCouponGenerator;
+use DesignPattern\Behavioral\StrategyPattern\GenerateCouponContext;
+use DesignPattern\Behavioral\StrategyPattern\Interfaces\CouponTypeInterface;
+use DesignPattern\Behavioral\StrategyPattern\Strategy\ExactCouponGenerator;
+use DesignPattern\Behavioral\StrategyPattern\Strategy\RandomCouponGenerator;
 
-include "vendor/autoload.php";
+include "bootstrap.php";
 
 
 $generateCouponContext = new GenerateCouponContext();
