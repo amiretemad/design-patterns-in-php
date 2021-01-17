@@ -1,11 +1,11 @@
 <?php
 
 
-namespace StrategyPattern\Strategy;
+namespace DesignPattern\Behavioral\StrategyPattern\Strategy;
 
 
-use StrategyPattern\Interfaces\CouponTypeInterface;
-use StrategyPattern\Interfaces\GenerateCouponStrategyInterface;
+use DesignPattern\Behavioral\StrategyPattern\Interfaces\CouponTypeInterface;
+use DesignPattern\Behavioral\StrategyPattern\Interfaces\GenerateCouponStrategyInterface;
 
 class ExactCouponGenerator implements GenerateCouponStrategyInterface
 {

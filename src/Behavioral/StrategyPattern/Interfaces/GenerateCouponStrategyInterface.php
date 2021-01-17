@@ -1,6 +1,6 @@
 <?php
 
-namespace StrategyPattern\Interfaces;
+namespace DesignPattern\Behavioral\StrategyPattern\Interfaces;
 
 /**
  * Interface GenerateCouponInterface

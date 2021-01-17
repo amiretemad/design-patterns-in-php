@@ -1,9 +1,9 @@
 <?php
 
 
-namespace StrategyPattern;
+namespace DesignPattern\Behavioral\StrategyPattern;
 
-use StrategyPattern\Interfaces\GenerateCouponStrategyInterface;
+use DesignPattern\Behavioral\StrategyPattern\Interfaces\GenerateCouponStrategyInterface;
 
 class GenerateCouponContext
 {
@@ -14,7 +14,7 @@ class GenerateCouponContext
     protected $strategies = [];
 
     /** @param GenerateCouponStrategyInterface $generateCouponStrategy */
-    public function setStrategy(GenerateCouponStrategyInterface $generateCouponStrategy)
+    public function setStrategy(GenerateCouponStrategyInterface $generateCouponStrategy): void
     {
         $this->strategies [] = $generateCouponStrategy;
     }
